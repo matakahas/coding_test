@@ -1,0 +1,6 @@
+## Scraping, topic modeling and flair prediction from the banned r/proED/ subreddit
+**Trigger Warning:** content related to eating disorders
+
+r/proED/, which had over 30,000 subscribers, was shut down in November 2018 for its alleged violation of Reddit's content policy, and in particular "the posting of content that encourages physical harm." While the study by Feldhege et al. (2021) ([link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8529462/) to the paper) shows negative effects of pro-ED communities on unsustainable weight loss and setting unrealistic weight goals, those who were part of the community argue that it was one of few places where they could have candid conversations about mental health, or that it was where they realized that they had an eating disorder in the first place. \
+In this project, I would like to take a deep dive into what kind of conversations were taking place on the subreddit, and the sentiment of the posts (e.g., whether they were supportive or competitive). \
+I scraped all the posts (but no comments) on the subreddit between 2015 and 2018 from a mirror site ([link](https://goutiest-zorse-5012.dataplicity.io/)) (Part 1), conducted topic modelling on the dataset (Part 2), and created a couple of ML models to see whether they can predict a flair based on the content of a post (Part 3).
