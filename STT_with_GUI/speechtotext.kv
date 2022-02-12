@@ -1,0 +1,35 @@
+#-*- coding: utf-8 -*-
+
+TextWidget:
+
+<TextWidget>:
+    BoxLayout:
+        orientation: 'vertical'
+        size: root.size
+
+        Label:
+            text_size: self.size
+            id: label1
+            font_size: 50
+            text: root.text
+            halign: 'left'
+            valign: 'top'
+            padding_x: 35
+            padding_y: 20
+            
+        
+        BoxLayout:
+            size_hint_y: 0.2
+            padding: 30,30,30,10
+            Button:
+                id: button_start
+                text: 'Start'
+                font_size: 20
+                on_press: root.buttonClickedStart()
+            
+            Button:
+                id: button_end
+                text: 'End'
+                font_size: 20
+                on_press: root.buttonClickedEnd()
+                on_release: app.stop()
