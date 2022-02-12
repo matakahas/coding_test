@@ -1,0 +1,5 @@
+click==7.1.2
+numpy==1.20.1
+opencv_python==4.5.4.60
+pyenchant==3.2.2
+pytesseract==0.3.8
